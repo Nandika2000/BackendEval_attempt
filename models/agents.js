@@ -1,7 +1,7 @@
-'use strict';
 const {
-  Model
+  Model,
 } = require('sequelize');
+
 module.exports = (sequelize, DataTypes) => {
   class agents extends Model {
     /**
@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     originCountry: DataTypes.STRING,
     class: DataTypes.STRING,
     gender: DataTypes.STRING,
-    abilities: DataTypes.JSON
+    abilities: DataTypes.JSON,
   }, {
     sequelize,
     modelName: 'agents',

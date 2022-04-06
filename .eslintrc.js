@@ -13,6 +13,11 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-
+    'no-console': 'off',
+    'no-plusplus': 'off',
+    'no-param-reassign': 'off',
+    'no-restricted-syntax': 'off',
+    'no-return-await': 'off',
+    'global-require ': 'off',
   },
 };
